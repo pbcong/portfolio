@@ -1,6 +1,5 @@
-require("dotenv").config();
-const serviceId = process.env.serviceId;
-const templateId = process.env.templateId;
-const userId = process.env.userId;
+const serviceId = import.meta.env.VITE_SERVICE_ID;
+const templateId = import.meta.env.VITE_TEMPLATE_ID;
+const userId = import.meta.env.VITE_USER_ID;
 
 export { serviceId, templateId, userId };

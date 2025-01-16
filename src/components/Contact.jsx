@@ -18,6 +18,9 @@ const Contact = () => {
         (result) => {
           console.log("SUCCESS:", result.text);
           setMessage("Thank you for reaching out! I'll get back to you soon.");
+          setTimeout(() => {
+            setMessage("");
+          }, 3000);
           formRef.current.reset(); // Clear the form
         },
         (error) => {
