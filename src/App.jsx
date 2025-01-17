@@ -7,9 +7,8 @@ import Profile from "./components/Profile";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
       <Header resumeData={resumeData} />
@@ -17,6 +16,7 @@ function App() {
       <Profile resumeData={resumeData} />
       <Resume resumeData={resumeData} />
       <Skills resumeData={resumeData} />
+      <Projects resumeData={resumeData} />
       <Contact resumeData={resumeData} />
       <Footer resumeData={resumeData} />
     </div>

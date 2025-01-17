@@ -72,7 +72,7 @@ const Resume = ({ resumeData }) => {
           </div>
           <button
             onClick={handleFullResume}
-            className="px-4 py-2 font-medium capitalize transition-colors bg-orange-500 text-white rounded-full hover:bg-orange-600"
+            className="px-3 py-2 font-medium capitalize transition-colors bg-orange-500 text-white rounded-full hover:bg-orange-600"
           >
             See full resume
           </button>

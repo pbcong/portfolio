@@ -64,26 +64,54 @@ let resumeData = {
       skillname: "Reactjs",
     },
   ],
-  portfolio: [
+  projects: [
     {
-      name: "project1",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      id: 1,
+      title: "E-commerce Platform",
+      description:
+        "A full-stack e-commerce solution with real-time inventory management and secure payment processing.",
+      technologies: "React, Node.js, MongoDB, Stripe",
+      imageUrl: "/api/placeholder/600/400",
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg",
+      id: 2,
+      title: "Task Management App",
+      description:
+        "A collaborative task management tool with real-time updates and team collaboration features.",
+      technologies: "Vue.js, Firebase, Tailwind CSS",
+      imageUrl: "/api/placeholder/600/400",
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project2.png",
+      id: 1,
+      title: "E-commerce Platform",
+      description:
+        "A full-stack e-commerce solution with real-time inventory management and secure payment processing.",
+      technologies: "React, Node.js, MongoDB, Stripe",
+      imageUrl: "/api/placeholder/600/400",
     },
     {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      id: 2,
+      title: "Task Management App",
+      description:
+        "A collaborative task management tool with real-time updates and team collaboration features.",
+      technologies: "Vue.js, Firebase, Tailwind CSS",
+      imageUrl: "/api/placeholder/600/400",
+    },
+    {
+      id: 1,
+      title: "E-commerce Platform",
+      description:
+        "A full-stack e-commerce solution with real-time inventory management and secure payment processing.",
+      technologies: "React, Node.js, MongoDB, Stripe",
+      imageUrl: "/api/placeholder/600/400",
+    },
+    {
+      id: 2,
+      title: "Task Management App",
+      description:
+        "A collaborative task management tool with real-time updates and team collaboration features.",
+      technologies: "Vue.js, Firebase, Tailwind CSS",
+      imageUrl: "/api/placeholder/600/400",
     },
   ],
   testimonials: [
