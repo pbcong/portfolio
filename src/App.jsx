@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import Laptop from "./components/Laptop";
 function App() {
   return (
     <div>

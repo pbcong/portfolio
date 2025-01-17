@@ -1,9 +1,10 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import Laptop from "./Laptop";
 
 const Intro = ({ resumeData }) => {
   return (
-    <div className=" min-h-screen -mt-12" id="home">
+    <div className="min-h-screen -mt-12" id="home">
       {/* Background Image */}
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat"
@@ -16,18 +17,26 @@ const Intro = ({ resumeData }) => {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-20 flex flex-col items-center justify-center h-screen text-white text-center">
-        <div className="text-5xl font-bold mb-4">Hello World!</div>
-        <div className="text-2xl mb-2 font-bold">I am Cong, a</div>
-        <div className="text-3xl font-semibold text-white ">
-          <Typewriter
-            options={{
-              strings: ["Data Scientist", "Software Engineer", "Musician"],
-              autoStart: true,
-              loop: true,
-              cursor: "_",
-            }}
-          />
+      <div className="relative z-30 flex items-center justify-between h-screen px-20 text-white">
+        {/* Text Section */}
+        <div className="flex flex-col justify-center text-left pr-10">
+          <div className="text-5xl font-bold mb-4">Hello World!</div>
+          <div className="text-2xl mb-2 font-bold">I am Cong, a</div>
+          <div className="text-3xl font-semibold text-white">
+            <Typewriter
+              options={{
+                strings: ["Data Scientist", "Software Engineer", "Musician"],
+                autoStart: true,
+                loop: true,
+                cursor: "_",
+              }}
+            />
+          </div>
+        </div>
+
+        {/* Laptop Section */}
+        <div className="flex justify-end">
+          <Laptop />
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import resumeData from "../resumeData";
 
 const Projects = ({ resumeData }) => {
   const projects = resumeData.projects;
