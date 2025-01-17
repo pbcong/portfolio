@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const Intro = ({ resumeData }) => {
   return (
-    <div className=" min-h-screen">
+    <div className=" min-h-screen -mt-12" id="home">
       {/* Background Image */}
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat"

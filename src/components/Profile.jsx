@@ -2,7 +2,10 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <section className="w-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-6 ">
+    <section
+      className="w-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-6 "
+      id="about"
+    >
       {/* Container */}
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start px-6 gap-6">
         {/* Left Column - Profile Picture */}

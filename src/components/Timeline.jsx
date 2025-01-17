@@ -42,24 +42,40 @@ const Resume = ({ resumeData }) => {
     return `${item.MonthOfLeaving || item.MonthOfPassing} ${item.date}`;
   };
 
+  const handleFullResume = () => {
+    //linked to drive with full resume
+    window.open(
+      "https://drive.google.com/file/d/1s1e97GqTHW2a_RZO-8hsRvoF_vVzV0d2/view?usp=sharing"
+    );
+  };
   return (
-    <div className="w-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-6 mt-5">
+    <div
+      className="w-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl p-6 mt-5"
+      id="resume"
+    >
       <div className="mb-6">
-        <div className="flex space-x-2 border-b">
-          {["education", "work", "extracurricular"].map((filter) => (
-            <button
-              key={filter}
-              onClick={() => setActiveFilter(filter)}
-              className={`px-4 py-2 font-medium capitalize transition-colors
-                ${
+        <div className="flex justify-between items-center border-b">
+          <div className="flex space-x-2">
+            {["education", "work", "extracurricular"].map((filter) => (
+              <button
+                key={filter}
+                onClick={() => setActiveFilter(filter)}
+                className={`px-4 py-2 font-medium capitalize transition-colors ${
                   activeFilter === filter
                     ? "border-b-2 border-blue-500 text-blue-600"
                     : "text-gray-600 hover:text-blue-500"
                 }`}
-            >
-              {filter}
-            </button>
-          ))}
+              >
+                {filter}
+              </button>
+            ))}
+          </div>
+          <button
+            onClick={handleFullResume}
+            className="px-4 py-2 font-medium capitalize transition-colors bg-orange-500 text-white rounded-full hover:bg-orange-600"
+          >
+            See full resume
+          </button>
         </div>
       </div>
 
