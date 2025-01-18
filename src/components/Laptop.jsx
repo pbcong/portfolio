@@ -22,17 +22,17 @@ const Laptop = () => {
     // Create camera
     const camera = new THREE.PerspectiveCamera(
       75,
-      (window.innerWidth * 0.5) / (window.innerHeight * 0.5), // Adjust aspect ratio
+      window.innerWidth / window.innerHeight, // Adjust aspect ratio
       0.1,
       1000
     );
-    camera.position.z = 24;
+    camera.position.z = 20;
 
     // Create scene
     const scene = new THREE.Scene();
 
     // Add lights
-    const light = new THREE.DirectionalLight(0xffffff, 2.4);
+    const light = new THREE.DirectionalLight(0xffffff, 8);
     light.position.set(-6, 10, 10);
     scene.add(light);
 
@@ -45,7 +45,7 @@ const Laptop = () => {
     let screen = null;
     const modelInitialRotation = [0.5, -0.5, 0];
     const screenInitialRotation = [0, Math.PI, 0];
-    const modelInitialPosition = [-3, -8, -10];
+    const modelInitialPosition = [-3, -3, -10];
 
     loader.load(
       "/laptop/source/Laptop.fbx",
@@ -93,9 +93,9 @@ const Laptop = () => {
 
     // Handle window resizing
     const handleResize = () => {
-      camera.aspect = (window.innerWidth * 0.5) / (window.innerHeight * 0.5);
+      camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth * 0.5, window.innerHeight * 0.5);
+      renderer.setSize(window.innerWidth * 0.6, window.innerHeight * 0.6);
     };
     window.addEventListener("resize", handleResize);
 
