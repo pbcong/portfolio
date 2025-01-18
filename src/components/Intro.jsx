@@ -10,7 +10,7 @@ const Intro = ({ resumeData }) => {
         <div
           className="w-full h-full bg-cover bg-center bg-no-repeat filter blur-md"
           style={{
-            backgroundImage: "url('../../public/images/header-background.jpg')",
+            backgroundImage: "url('/images/header-background.jpg')",
           }}
         ></div>
         {/* Dark Overlay */}
