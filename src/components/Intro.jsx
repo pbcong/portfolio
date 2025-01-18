@@ -19,7 +19,7 @@ const Intro = ({ resumeData }) => {
       {/* Content Container */}
       <div className="relative z-30 flex items-center justify-between h-screen px-20 text-white">
         {/* Text Section */}
-        <div className="flex flex-col justify-center text-left pr-10">
+        <div className="flex flex-col justify-center text-left ">
           <div className="text-5xl font-bold mb-4">Hello World!</div>
           <div className="text-2xl mb-2 font-bold">I am Cong, a</div>
           <div className="text-3xl font-semibold text-white">

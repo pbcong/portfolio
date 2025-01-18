@@ -28,19 +28,25 @@ const Skills = () => {
   const skills = [
     { name: "Python", imagePath: "icons/python.svg" },
     { name: "PyTorch", imagePath: "icons/pytorch.svg" },
+    { name: "Huggingface", imagePath: "icons/hf.svg" },
+    { name: "SkLearn", imagePath: "icons/sklearn.svg" },
+    { name: "OpenAI SDK", imagePath: "icons/openai.svg" },
     { name: "Numpy", imagePath: "icons/numpy.svg" },
     { name: "Pandas", imagePath: "icons/pandas.svg" },
+    { name: "LangChain", imagePath: "icons/langchain.svg" },
     { name: "Matplotlib", imagePath: "icons/Matplotlib.svg" },
+    { name: "FastAPI", imagePath: "icons/fastapi.svg" },
+
     { name: "HTML", imagePath: "icons/html.svg" },
     { name: "CSS", imagePath: "icons/css.svg" },
     { name: "JavaScript", imagePath: "icons/javascript.svg" },
     { name: "React", imagePath: "icons/react.svg" },
+    { name: "MongoDB", imagePath: "icons/MongoDB.svg" },
     { name: "Node.js", imagePath: "icons/nodejs.svg" },
-    { name: "LangChain", imagePath: "icons/langchain.svg" },
+    { name: "Linux", imagePath: "icons/linux.svg" },
     { name: "Git", imagePath: "icons/git.svg" },
     { name: "Docker", imagePath: "icons/docker.svg" },
-    { name: "MongoDB", imagePath: "icons/MongoDB.svg" },
-    { name: "OpenAI SDK", imagePath: "icons/openai.svg" },
+    { name: "VSCode", imagePath: "icons/vsc.svg" },
   ];
 
   return (
