@@ -36,7 +36,7 @@ const Resume = ({ resumeData }) => {
   );
 
   const formatDate = (item) => {
-    if (item.type === "experience") {
+    if (item.type === "experience" || item.type === "work") {
       return `${item.MonthOfStarting} ${item.YearOfStarting} - ${item.MonthOfLeaving} ${item.YearOfLeaving}`;
     }
     return `${item.MonthOfLeaving || item.MonthOfPassing} ${item.date}`;

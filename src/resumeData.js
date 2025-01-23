@@ -38,8 +38,10 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "Some Company",
-      specialization: "Some specialization",
+      CompanyName: "LMMs-Lab",
+      specialization: "Research Assistant",
+      MonthOfStarting: "Sep",
+      YearOfStarting: "2023",
       MonthOfLeaving: "Jan",
       YearOfLeaving: "2018",
       Achievements: "Some Achievements",
@@ -47,6 +49,8 @@ let resumeData = {
     {
       CompanyName: "Some Company",
       specialization: "Some specialization",
+      MonthOfStarting: "Mar",
+      YearOfStarting: "2017",
       MonthOfLeaving: "Jan",
       YearOfLeaving: "2018",
       Achievements: "Some Achievements",
@@ -66,52 +70,47 @@ let resumeData = {
   ],
   projects: [
     {
-      id: 1,
-      title: "E-commerce Platform",
+      id: 4,
+      title: "Multimodal Benchmarking for Audio-Language Models",
       description:
-        "A full-stack e-commerce solution with real-time inventory management and secure payment processing.",
-      technologies: "React, Node.js, MongoDB, Stripe",
-      imageUrl: "/api/placeholder/600/400",
-    },
-    {
-      id: 2,
-      title: "Task Management App",
-      description:
-        "A collaborative task management tool with real-time updates and team collaboration features.",
-      technologies: "Vue.js, Firebase, Tailwind CSS",
+        "Implemented six prominent audio-language benchmarks for a standardized multimodal evaluation framework, contributing to its development and achieving reproducible evaluation results.",
+      technologies: "Python, HuggingFace, Docker, PyTorch",
       imageUrl: "/api/placeholder/600/400",
     },
     {
       id: 1,
-      title: "E-commerce Platform",
+      title: "Teaching Assistant RAG Chatbot",
       description:
-        "A full-stack e-commerce solution with real-time inventory management and secure payment processing.",
-      technologies: "React, Node.js, MongoDB, Stripe",
-      imageUrl: "/api/placeholder/600/400",
+        "A robust chatbot leveraging the Retrieval-Augmented Generation (RAG) method to efficiently answer course-related queries, featuring a FastAPI backend and a ReactJS frontend for seamless interaction.",
+      technologies:
+        "Python, LangChain, Streamlit, FastAPI, FAISS, OpenAI, ReactJS",
+      imageUrl: "images/rag.png",
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Image Super-Resolution using GAN",
       description:
-        "A collaborative task management tool with real-time updates and team collaboration features.",
-      technologies: "Vue.js, Firebase, Tailwind CSS",
-      imageUrl: "/api/placeholder/600/400",
+        "Developed a generative adversarial network (SRGAN) for image super-resolution, incorporating advanced data augmentation techniques for robust training.",
+      technologies: "Torch, Torchvision, Pillow, Albumentations",
+      imageUrl: "images/srgan.png",
     },
     {
-      id: 1,
-      title: "E-commerce Platform",
+      id: 4,
+      title: "Podcast-anything",
       description:
-        "A full-stack e-commerce solution with real-time inventory management and secure payment processing.",
-      technologies: "React, Node.js, MongoDB, Stripe",
-      imageUrl: "/api/placeholder/600/400",
+        "An application that create interactive podcast from documents",
+      technologies: "OpenAI, Huggingface, Flask, ReactJS",
+      imageUrl: "images/podcast.png",
+      url: "https://github.com/pbcong/podcast-anything",
     },
     {
-      id: 2,
-      title: "Task Management App",
+      id: 3,
+      title: "Spotify Top Song EDA and Popularity Prediction",
       description:
-        "A collaborative task management tool with real-time updates and team collaboration features.",
-      technologies: "Vue.js, Firebase, Tailwind CSS",
-      imageUrl: "/api/placeholder/600/400",
+        "Performed exploratory data analysis and built machine learning models to predict song popularity, achieving a 10% improvement in XGBoost performance through hyperparameter tuning.",
+      technologies: "Pandas, Matplotlib, Sklearn, XGBoost",
+      imageUrl: "images/EDA.png",
+      url: "https://github.com/pbcong/spotify-eda",
     },
   ],
   testimonials: [
