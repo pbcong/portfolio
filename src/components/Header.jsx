@@ -32,6 +32,14 @@ export default class Header extends Component {
                     <a
                       href={"#" + button.toLowerCase()}
                       className="text-white hover:text-orange-400 transition-colors duration-300 text-lg font-medium"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        document
+                          .querySelector(e.target.getAttribute("href"))
+                          .scrollIntoView({
+                            behavior: "smooth",
+                          });
+                      }}
                     >
                       {button}
                     </a>
