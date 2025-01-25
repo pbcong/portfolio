@@ -6,7 +6,7 @@ export default class Header extends Component {
     const buttons = ["Home", "About", "Resume", "Contact"];
     return (
       <React.Fragment>
-        <header className="w-full fixed top-0 z-50  h-12 bg-black bg-opacity-60">
+        <header className="w-full fixed top-0 z-40  h-12 bg-black bg-opacity-60">
           <nav className="h-full flex items-center">
             {/* Mobile Menu Buttons */}
             <a

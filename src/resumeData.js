@@ -1,32 +1,4 @@
 let resumeData = {
-  imagebaseurl: "https://rbhatia46.github.io/",
-  name: "Cong Pham",
-  role: "Data Scientist and Software Engineer",
-  linkedinId: "Your LinkedIn Id",
-  skypeid: "Your skypeid",
-  roleDescription:
-    "I like working with data, especially in deep learning. Interested in multimodal language models. Likes to build software and web applications.",
-  socialLinks: [
-    {
-      name: "linkedin",
-      url: "https://www.linkedin.com/in/pbcong/",
-      className: "fa fa-linkedin",
-    },
-    {
-      name: "github",
-      url: "http://github.com/rbhatia46",
-      className: "fa fa-github",
-    },
-    {
-      name: "skype",
-      url: "http://twitter.com/rbhatia46",
-      className: "fa fa-twitter",
-    },
-  ],
-  aboutme:
-    "I am a second-year student at Nanyang Technological University, majoring in Data Science and Economics. I am passionate about data and its applications in various fields. Particularly interested in mulltimodal language models and deep learning.",
-  address: "Singapore",
-  website: "https://github.com/pbcong",
   education: [
     {
       UniversityName: "Nanyang Technological University",
@@ -34,6 +6,28 @@ let resumeData = {
       MonthOfPassing: "Aug",
       YearOfPassing: "2023",
       Achievements: "Dean's List AY 2023/2024, ASEAN Undergraduate Scholarship",
+    },
+  ],
+  experience: [
+    {
+      CompanyName: "Machine Learning and Data Analytics @ EEE NTU",
+      Role: "Machine Learning Engineer",
+      MonthOfStarting: "Sep",
+      YearOfStarting: "2024",
+      MonthOfLeaving: "Present",
+      YearOfLeaving: "",
+      Description:
+        "Conducted in-depth research on advanced deep learning models for 3D reconstruction from RGB-D images",
+    },
+    {
+      CompanyName: "Deep Learning Week 2024 @ EEE NTU",
+      Role: "Academic Committee Member",
+      MonthOfStarting: "Sep",
+      YearOfStarting: "2024",
+      MonthOfLeaving: "Present",
+      YearOfLeaving: "",
+      Description:
+        "Organized workshops and seminars on deep learning, specifically Generative Adversarial Networks (GANs)",
     },
   ],
   work: [
@@ -44,38 +38,16 @@ let resumeData = {
       YearOfStarting: "2023",
       MonthOfLeaving: "Jan",
       YearOfLeaving: "2018",
-      Achievements: "Some Achievements",
-    },
-    {
-      CompanyName: "Some Company",
-      specialization: "Some specialization",
-      MonthOfStarting: "Mar",
-      YearOfStarting: "2017",
-      MonthOfLeaving: "Jan",
-      YearOfLeaving: "2018",
-      Achievements: "Some Achievements",
-    },
-  ],
-  skillsDescription: "Your skills here",
-  skills: [
-    {
-      skillname: "HTML5",
-    },
-    {
-      skillname: "CSS",
-    },
-    {
-      skillname: "Reactjs",
+      Achievements: "Conducted research on multimodal language models.",
     },
   ],
   projects: [
     {
       id: 4,
       title: "Multimodal Benchmarking for Audio-Language Models",
-      description:
-        "Implemented six prominent audio-language benchmarks for a standardized multimodal evaluation framework, contributing to its development and achieving reproducible evaluation results.",
+      description: "The Evaluation Suite of Large Multimodal Models",
       technologies: "Python, HuggingFace, Docker, PyTorch",
-      imageUrl: "/api/placeholder/600/400",
+      imageUrl: "images/lmms-eval.png",
     },
     {
       id: 1,
@@ -100,7 +72,7 @@ let resumeData = {
       description:
         "An application that create interactive podcast from documents",
       technologies: "OpenAI, Huggingface, Flask, ReactJS",
-      imageUrl: "images/podcast.png",
+      imageUrl: "images/podcast.webp",
       url: "https://github.com/pbcong/podcast-anything",
     },
     {
@@ -111,16 +83,6 @@ let resumeData = {
       technologies: "Pandas, Matplotlib, Sklearn, XGBoost",
       imageUrl: "images/EDA.png",
       url: "https://github.com/pbcong/spotify-eda",
-    },
-  ],
-  testimonials: [
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
-    },
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
     },
   ],
 };

@@ -56,7 +56,7 @@ const Resume = ({ resumeData }) => {
       <div className="mb-6">
         <div className="flex justify-between items-center border-b">
           <div className="flex space-x-2">
-            {["education", "work", "extracurricular"].map((filter) => (
+            {["education", "work", "experience"].map((filter) => (
               <button
                 key={filter}
                 onClick={() => setActiveFilter(filter)}
